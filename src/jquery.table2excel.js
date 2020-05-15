@@ -110,7 +110,7 @@
                             if(additionalStyles){
 								tempRows += " style='" + additionalStyles + "'";
 							}
-                            tempRows += ">" + $(q).html() + "</td>";
+                            tempRows += ">&nbsp;" + $(q).html() + "</td>";
                         }
                     });
 
